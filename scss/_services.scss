@@ -1,0 +1,42 @@
+/* Services */
+.services {
+    background-color: $smoke;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+    gap: 32px;
+}
+
+.contentServices {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 16px;
+}
+
+.cardService {
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(45, 52, 66, 0.16);
+    border-radius: 8px;
+
+    img {
+        border-radius: 8px 8px 0px 0px;
+    }
+}
+
+.contentCardService {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+
+    h3 {
+        color: $primary;
+    }
+
+    a {
+        color: $link;
+    }
+}

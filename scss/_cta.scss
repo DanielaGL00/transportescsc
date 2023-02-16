@@ -1,0 +1,29 @@
+/* CTA */
+.cta {
+	background-color: $primary;
+	border-radius: 8px;
+	border: none;
+	display: inline-block;
+	color: $white;
+	width: auto;
+	padding: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cta {
+	&:hover {
+		color: $white;
+		background-color: $light_orange;
+		transition: all 0.3s;
+	}
+}
+
+a {
+	&:hover {
+		color: $primary;
+	}
+}

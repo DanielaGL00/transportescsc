@@ -1,0 +1,37 @@
+/* Data */
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: $dark_blue;
+    padding: 32px 16px;
+    gap: 16px;
+
+    .number {
+        color: $primary;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    p {
+        color: $white;
+    }
+}
+
+.contentData {
+    display: grid;
+    grid-template-columns: 72px 100%;
+    align-items: center;
+    gap: 8px;
+}
+
+.iconData {
+    display: flex;
+    background-color: $blue;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+}

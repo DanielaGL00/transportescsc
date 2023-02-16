@@ -1,0 +1,49 @@
+/* Main */
+main {
+    height: 549px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+        display: flex;
+        width: 800px;
+        flex-direction: column;
+        padding: 0px 16px;
+        align-items: center;
+        gap: 24px;
+
+        p {
+            color: $white;
+            text-align: center;
+        }
+    }
+}
+
+.heroTransportescsc {
+    background-image: url(../img/hero-transportescsc.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroAlquiler {
+    background-image: url(../img/hombre-conduciendo-transportescsc-alquiler.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroCarga {
+    background-image: url(../img/hombre-conduciendo-transportescsc-carga.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroEmpresarial {
+    background-image: url(../img/hombre-empresario-transportescsc-empresarial.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroContacto {
+    background-color: $dark_blue;
+}

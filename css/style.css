@@ -1,0 +1,428 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Text */
+h1 {
+    color: #F09700;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0px;
+}
+
+h2 {
+    color: #363E4F;
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0;
+}
+
+h3 {
+    color: #363E4F;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+}
+
+p {
+    color: #6D6970;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* CTA */
+.cta {
+    background-color: #F09700;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    color: #FFFFFF;
+    width: auto;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cta:hover {
+    color: #FFFFFF;
+    background-color: #F2B449;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #F09700;
+}
+
+/* Main */
+main {
+    height: 549px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .title {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 24px;
+}
+
+main .title p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.heroTransportescsc {
+    background-image: url(../img/hero-transportescsc.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroAlquiler {
+    background-image: url(../img/hombre-conduciendo-transportescsc-alquiler.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroCarga {
+    background-image: url(../img/hombre-conduciendo-transportescsc-carga.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroEmpresarial {
+    background-image: url(../img/hombre-empresario-transportescsc-empresarial.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.heroContacto {
+    background-color: #363E4F;
+}
+
+/* Data */
+.data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #363E4F;
+    padding: 32px 16px;
+    gap: 16px;
+}
+
+.data .number {
+    color: #F09700;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.data p {
+    color: #FFFFFF;
+}
+
+.contentData {
+    display: grid;
+    grid-template-columns: 72px 100%;
+    align-items: center;
+    gap: 8px;
+}
+
+.iconData {
+    display: flex;
+    background-color: #61708F;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+}
+
+/* Services */
+.services {
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+    gap: 32px;
+}
+
+.contentServices {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    gap: 16px;
+}
+
+.cardService {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 4px rgba(45, 52, 66, 0.16);
+    border-radius: 8px;
+}
+
+.cardService img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.contentCardService {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+}
+
+.contentCardService h3 {
+    color: #F09700;
+}
+
+.contentCardService a {
+    color: #3483FA;
+}
+
+/* Benefit */
+.benefit {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+    gap: 32px;
+}
+
+.contentBenefit {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 16px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.itemBenefit {
+    display: grid;
+    grid-template-columns: 72px auto;
+    gap: 16px;
+}
+
+.iconBenefit {
+    display: flex;
+    background-color: #FBFBFB;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 4px rgba(45, 52, 66, 0.16);
+}
+
+.textBenefit {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.imgBenefit {
+    border-radius: 8px;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #363E4F;
+    align-items: center;
+    padding: 64px 16px;
+    gap: 16px;
+}
+
+.banner p {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+    gap: 32px;
+}
+
+.contentTestimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.cardTestimonial {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(45, 52, 66, 0.16);
+    border-radius: 8px;
+    gap: 16px;
+}
+
+.cardTestimonial h3 {
+    font-weight: 800;
+}
+
+.workTestimonial {
+    color: #61708F;
+}
+
+/* Footer */
+footer {
+    background-color: #363E4F;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 64px 16px;
+    gap: 16px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer li {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.titleFooter {
+    color: #61708F;
+    font-weight: 800;
+}
+
+.footerContacto {
+    flex-grow: 3;
+    align-items: center;
+}
+
+.footerEnlaces {
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Media queries */
+/* Tableta */
+@media (min-width: 768px) {
+
+    /* Text */
+    h1 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    /* Data */
+    .data {
+        padding: 32px 80px;
+        grid-template-rows: none;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    /* Services */
+    .services {
+        padding: 64px 80px;
+    }
+
+    .contentServices {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Benefit */
+    .benefit {
+        padding: 64px 80px;
+    }
+
+    .contentBenefit {
+        grid-template-columns: auto auto;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        padding: 64px 80px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 64px 80px;
+    }
+
+    .footerEnlaces {
+        flex-direction: row;
+    }
+
+    .footerContacto {
+        flex-grow: 3;
+        align-items: flex-start;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .imgBenefit {
+        width: 500px;
+    }
+
+    .contentTestimonials {
+        flex-direction: row;
+    }
+
+    .cardTestimonial {
+        width: 100%;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */

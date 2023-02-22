@@ -21,7 +21,7 @@
 
 .contentData {
     display: grid;
-    grid-template-columns: 72px 100%;
+    grid-template-columns: 72px auto;
     align-items: center;
     gap: 8px;
 }

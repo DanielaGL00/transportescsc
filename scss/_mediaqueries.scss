@@ -24,7 +24,7 @@
     .contentServices {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
+
     /* Benefit */
     .benefit {
         padding: 64px 80px;
@@ -37,6 +37,15 @@
     /* Testimonials */
     .testimonials {
         padding: 64px 80px;
+    }
+
+    /* Contacto */
+    .contacto {
+        padding: 64px 80px;
+    }
+
+    .contentForm {
+        grid-template-columns: auto auto;
     }
 
     /* Footer */

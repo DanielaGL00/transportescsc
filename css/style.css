@@ -293,6 +293,37 @@ main .title p {
   color: #61708F;
 }
 
+/* Form */
+.contacto {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 16px;
+  gap: 32px;
+}
+.contacto h1 {
+  color: #363E4F;
+}
+.contacto p {
+  text-align: center;
+}
+
+.contentForm {
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  gap: 24px;
+}
+
+.form {
+  background-color: #FBFBFB;
+  color: #6D6970;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(45, 52, 66, 0.16);
+  display: grid;
+  gap: 24px;
+  padding: 24px;
+}
+
 /* Footer */
 footer {
   background-color: #363E4F;
@@ -372,6 +403,13 @@ footer ul {
   /* Testimonials */
   .testimonials {
     padding: 64px 80px;
+  }
+  /* Contacto */
+  .contacto {
+    padding: 64px 80px;
+  }
+  .contentForm {
+    grid-template-columns: auto auto;
   }
   /* Footer */
   footer {

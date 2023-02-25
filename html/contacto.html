@@ -40,50 +40,75 @@
     </header>
 
     <!-- FORM -->
-    <section>
+    <section class="contacto">
         <h1>Ponte en contacto con nosotros</h1>
-        <div class="formulario">
-            <form class="row g-3">
-                <div class="col-md-6">
-                  <label class="form-label">Nombre y apellido</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Correo electrónico</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Numero celular</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="col-md-4">
-                  <label for="inputState" class="form-label">Interesado en</label>
-                  <select id="inputState" class="form-select">
-                    <option selected="">Seleccionar</option>
-                    <option>Alquiler</option>
-                    <option>Carga</option>
-                    <option>Empresarial</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Escribir mensaje (opcional)</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Acepto terminos y condiciones
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-              </form>
+        <p>Completa el formulario y te contactaremos para ofrecerte una solución personalizada.</p>
+        <div class="contentForm">
+            <form class="needs-validation form">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere nombre.
+                        </div>
+                    </div>
 
-            <img src="../img/carros-parqueados-blancos-transporte.jpg" class="img-fluid"
-                alt="Carros blancos de transporte especial de pasajeros parqueado">
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Se requiere apellido.
+                        </div>
+                    </div>
+
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="tucorreo@gmail.com">
+                        <div class="invalid-feedback">
+                            Ingresa una dirección de correo electrónico válida.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="phone" class="form-label">Numero de celular</label>
+                        <input type="text" class="form-control" id="phone" required="">
+                        <div class="invalid-feedback">
+                            Ingresa un numero de celular válido.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="state" class="form-label">Interesado en</label>
+                        <select class="form-select" id="state" required="">
+                            <option value="">Seleccionar</option>
+                            <option>Alquiler</option>
+                            <option>Carga</option>
+                            <option>Empresarial</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Selecciona alguna opción.
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje <span
+                                class="text-muted">(Opcional)</span></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Acepto terminos y condiciones</label>
+                    </div>
+
+                    <button class="w-100 btn btn-primary btn-lg cta" type="submit">Enviar</button>
+                </div>
+            </form>
+
+            <img src="../img/asesora-comercial-sonriente.jpg" class="img-fluid"
+                alt="Asesora comercial sonriente en una llamada">
         </div>
     </section>
 

@@ -1,0 +1,32 @@
+/* Form */
+.contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+    gap: 32px;
+
+    h1 {
+        color: $dark_blue;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.contentForm {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 24px;
+}
+
+.form {
+    background-color: $smoke;
+    color: $light_black;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(45, 52, 66, 0.16);
+    display: grid;
+    gap: 24px;
+    padding: 24px;
+}

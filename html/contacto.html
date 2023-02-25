@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Empresa que presta el servicio de transporte especial de pasajeros, carga y empresarial">
+    <meta name="description"
+        content="Empresa que presta el servicio de transporte especial de pasajeros, carga y empresarial">
     <title>Contacto</title>
     <!-- CSS BT -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -38,15 +39,53 @@
         </nav>
     </header>
 
-    <!-- MAIN -->
-    <main class="heroContacto">
-        <div class="title">
-            <h1>
-                Ponte en contacto con nosotros
-            </h1>
-            <p>Completa el formulario y te contactaremos para ofrecerte una solución personalizada.</p>
+    <!-- FORM -->
+    <section>
+        <h1>Ponte en contacto con nosotros</h1>
+        <div class="formulario">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Nombre y apellido</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Numero celular</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Interesado en</label>
+                  <select id="inputState" class="form-select">
+                    <option selected="">Seleccionar</option>
+                    <option>Alquiler</option>
+                    <option>Carga</option>
+                    <option>Empresarial</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Escribir mensaje (opcional)</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Acepto terminos y condiciones
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+
+            <img src="../img/carros-parqueados-blancos-transporte.jpg" class="img-fluid"
+                alt="Carros blancos de transporte especial de pasajeros parqueado">
         </div>
-    </main>
+    </section>
 
     <!-- FOOTER -->
     <footer>
